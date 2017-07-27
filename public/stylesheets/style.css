@@ -1,2 +1,12 @@
+.panel-body.review-container {
+  padding-top: 0; }
+  .panel-body.review-container .review {
+    padding-bottom: 5px; }
+    .panel-body.review-container .review .review-header {
+      margin-bottom: 10px; }
+      .panel-body.review-container .review .review-header .reviewAuthor {
+        margin: 0 10px; }
+      .panel-body.review-container .review .review-header .reviewTimestamp {
+        color: #bbb; }
 
 /*# sourceMappingURL=style.css.map */
