@@ -1,3 +1,8 @@
+.list-group .list-group-item {
+  margin: 1em 0; }
+  .list-group .list-group-item .label {
+    margin: 0.5em; }
+
 .panel-body.review-container {
   padding-top: 0; }
   .panel-body.review-container .review {

@@ -7,11 +7,4 @@ block content
         h1=title
   .row
     .col-sm-12.col-md-6
-      p
-        | Loc8r was created to help people find places to sit down and get a bit of work done.
-        | <br /><br />
-        | Cupcake ipsum dolor sit. Amet gingerbread macaroon I love. Cheesecake sweet candy canes ice cream dessert tootsie roll.
-        | <br /><br />
-        | Pastry cake wafer. Dragée gingerbread I love sweet gingerbread pudding I love tart. Halvah apple pie jujubes jujubes toffee topping jelly-o I love wafer. Sesame snaps jelly-o I love jelly beans muffin.
-        | <br /><br />
-        | Jelly beans gummies oat cake jelly-o danish dessert. Cake jelly beans fruitcake chocolate cake macaroon. Fruitcake oat cake gingerbread cupcake fruitcake candy canes carrot cake gummi bears. Cake marzipan macaroon wafer. Cotton candy caramels powder pie bear claw liquorice. Brownie danish cake gingerbread lollipop macaroon macaroon candy canes.
+      p !{(content).replace(/\n/g, '<br>')}
